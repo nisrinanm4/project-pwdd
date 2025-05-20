@@ -66,8 +66,8 @@ if (!isset($_SESSION['user_id'])) {
         <p class="content-text">Setelah fungsi didefinisikan, panggil dengan menyebutkan nama dan memberikan argumen sesuai parameter:</p>
         <div class="code-block"><br>
             <span class="type">int</span> hasil = tambah(<span class="type">5</span>, <span class="type">3</span>); 
-        <br> cout << <span class="type">"hasil: "</span> << hasil << endl; // Output: Hasil: 8</p><br>
-            <p>nilai [<span class="type">2</span>] = <span class="type">100</span>; &nbsp; // mengubah elemen ketiga menjadi 100</p>
+        <br> cout << <span class="type">"hasil: "</span> << hasil << endl; <span class="comment">// Output: Hasil: 8</span></p><br>
+            <p>nilai [<span class="type">2</span>] = <span class="type">100</span>; &nbsp; <span class="comment">// mengubah elemen ketiga menjadi 100</span></p>
             <br>
         </div>
         <br>
@@ -80,7 +80,7 @@ if (!isset($_SESSION['user_id'])) {
          <div class="code-block"><br>
             <span class="type">void</span> sapa(string nama) {
          <br>&nbsp;&nbsp;&nbsp; cout << <span class="type">"Halo, "</span> << nama << <span class="type">"!"</span> << endl; <br> }</p><br>
-            <p>sapa(<span class="type">"Andi"</span>); // Output: Halo, Andi!</p><br>
+            <p>sapa(<span class="type">"Andi"</span>); <span class="comment">// Output: Halo, Andi!</span></p><br>
          </div>
          <br>
 
@@ -88,7 +88,7 @@ if (!isset($_SESSION['user_id'])) {
           <h2 class="section-title">6. Fungsi Prototype</h2>
           <p class="content-text">Fungsi prototype adalah deklarasi fungsi sebelum definisi lengkapnya, berguna agar fungsi bisa dipanggil sebelum definisinya muncul dalam kode.</p>
           <div class="code-block"><br>
-            <span class="type">int</span> kali(<span class="type">int</span>); // prototype<br><br>
+            <span class="type">int</span> kali(<span class="type">int</span>); <span class="comment">// prototype</span><br><br>
             <span class="type">int</span> main() {
             <br>&nbsp;&nbsp;&nbsp;cout << kali(<span class="type">4</span>,<span class="type">5</span>); <br>&nbsp;&nbsp;&nbsp;<span class="type">return 0;</span> <br> }</p><br><br>
             <span class="type">int</span> kali(<span class="type">int</span> a, <span class="type">int</span> b) {
